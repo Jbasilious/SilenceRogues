@@ -1,13 +1,13 @@
-package com.example;
+package com.roguesilencer;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class RogueSilencerPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(RogueSilencerPlugin.class);
 		RuneLite.main(args);
 	}
 }
